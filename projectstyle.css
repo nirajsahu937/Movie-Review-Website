@@ -1,0 +1,78 @@
+/* (*) star selectort means it will select all elemrnt of html file 
+keep in mind if we want image to be a part of webside then insert that image in that folder og project */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131720 ;
+    font-family: sans-serif;   /*this line mean the font will adjust according to image size */
+}
+
+h3{
+    color: aliceblue;
+}
+
+.topnav{  /*this is we using class */
+    overflow:hidden;
+    background-color: #131720;
+    padding:10px;
+}
+
+.topnav a{
+    float:left;
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+form{
+    background-color: #151f30;
+    width: 300px;
+    height:43px;
+    border-radius:11px;
+    display:flex;
+    align-items: center;
+}
+
+input {  /*this is for search bar mai design input from user*/
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width:100%;
+    padding:6px 9px;
+}
+
+.thumbnail{
+    height:350px;
+    width:300px;
+    border-radius:19px;  /*padding means crating unimaginary border of anythings*/
+}
+ 
+.column{
+    float:left;
+    width:25%;
+    padding:10px 10px;
+}
+
+.card{   /*this is for movie card */
+    border-radius: 19px;
+    padding:15px;
+    text-align:center;
+    background-color: #151f30;
+}
+
+/*NEXT TOPIC J   (5ab40f19f731d3fceb39d51ace97b7a2) */
+
+
+
+
